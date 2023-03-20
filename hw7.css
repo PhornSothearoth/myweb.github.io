@@ -1,0 +1,243 @@
+body{
+    margin: 0%;
+}
+.container{
+    width: 100vw;
+    overflow: hidden;
+    margin: auto;
+    background-color: black;
+}
+.menu{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    background-color: aqua;
+    color: black;
+    transition: .5s;
+}
+.login{
+    width: 10%;
+    float: right;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.login button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+    border: solid 1px aqua;
+}
+.login button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.box1{
+    width: 70%;
+    float: left;
+    margin-left: 50px;
+    color: #fff;
+}
+.box1 button{
+    padding: .5rem 3rem;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+    border: solid 1px aqua;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box1 button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.box2{
+    width: 80%;
+    height: 500px;
+    float: left;
+    margin-top: 15px;
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.box3{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.box3-1{
+    width: 40%;
+    float: left;
+    height: 400px;
+}
+.box3-1 ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+.box3-1 ul li a{
+    display: block;
+    padding: 10px;
+    color: aqua;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.box3-1 ul li a:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.box3-2{
+    width: 60%;
+    float: left;
+    height: 400px;
+}
+.txt{
+    width: 80%;
+    height: 270px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -7px;
+    color: #fff;
+}
+.txt button{
+    padding: .5rem 3rem;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+    border: solid 1px aqua;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box4{
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+}
+.box4-txt{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: aqua;
+}
+.box4-1{
+    width: 30%;
+    height: 50px;
+    float: left;
+    margin-left: 38%;
+    margin-top: 5px;
+}
+.box4-1-1{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+}
+.box4-1-1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.box4-txt1{
+    width: 80%;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    color: aqua;
+}
+@media(max-width:600px){
+    .menu{
+        width: 60%;
+        float: left;
+        margin-left: 10px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        font-size: 12px;
+        color: aqua;
+        font-weight: bold;
+    }
+    .login{
+        width: 10%;
+        float: right;
+        padding: 7px;
+        box-sizing: border-box;
+        margin-right: 30px;
+        margin-top: -2px;
+    }
+    .login button{
+        width: 2rem;
+        height: 1rem;
+        border-radius: 2px;
+        background-color: black;
+        color: aqua;
+        border: solid 1px aqua;
+        font-size: 8px;
+    }
+    .box1 h1{
+        font-size: 20px;
+    }
+    .box2 img{
+        width: 100%;
+        height: 30%;
+        float: left;
+    }
+    .box3{
+        margin-top:-80%;
+    }
+    .box4{
+        margin-top: 15%;
+    }
+    .box4-txt h1{
+        font-size: 15px;
+    }
+    .box4-1{
+        width: 100%;
+        float: left;
+    }
+    .box4-1-1{
+        width: 30px;
+        height: 30px;
+        float: left;
+        border-radius: 50%;
+    }
+    .box4-txt1{
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin-left: 10px;
+        color: aqua;
+        font-size: 10px;
+        margin-top: -5px;
+    }
+    
+}
